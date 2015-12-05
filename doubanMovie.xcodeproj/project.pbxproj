@@ -8,13 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		1B250D121C0AEF4200B13630 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B250D111C0AEF4200B13630 /* main.m */; };
-		1B250D151C0AEF4200B13630 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B250D141C0AEF4200B13630 /* AppDelegate.m */; };
-		1B250D181C0AEF4200B13630 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B250D171C0AEF4200B13630 /* ViewController.m */; };
 		1B250D1B1C0AEF4200B13630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B250D191C0AEF4200B13630 /* Main.storyboard */; };
 		1B250D1D1C0AEF4200B13630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B250D1C1C0AEF4200B13630 /* Assets.xcassets */; };
 		1B250D201C0AEF4200B13630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B250D1E1C0AEF4200B13630 /* LaunchScreen.storyboard */; };
 		1B250D2B1C0AEF4200B13630 /* doubanMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B250D2A1C0AEF4200B13630 /* doubanMovieTests.m */; };
 		1B250D361C0AEF4200B13630 /* doubanMovieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B250D351C0AEF4200B13630 /* doubanMovieUITests.m */; };
+		1B411F9D1C1196930054164D /* MovieInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B411F9B1C1196930054164D /* MovieInfoCell.m */; };
+		1B411F9E1C1196930054164D /* MovieInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B411F9C1C1196930054164D /* MovieInfoCell.xib */; };
+		1B6B9E081C0FDB8D00AAF68A /* ZQRatingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B9E071C0FDB8D00AAF68A /* ZQRatingModel.m */; };
+		1B6B9E0A1C0FE5F700AAF68A /* graystar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B9E091C0FE5F700AAF68A /* graystar@2x.png */; };
+		1B6B9E0C1C0FE61B00AAF68A /* redstar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B9E0B1C0FE61B00AAF68A /* redstar@2x.png */; };
+		1B6B9E0E1C1019BA00AAF68A /* ratingstar_half@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B9E0D1C1019BA00AAF68A /* ratingstar_half@2x.png */; };
+		1B6B9E101C101FD400AAF68A /* star_half@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B9E0F1C101FD400AAF68A /* star_half@2x.png */; };
+		1B6B9E121C1027E300AAF68A /* upcoming_cn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B9E111C1027E300AAF68A /* upcoming_cn@2x.png */; };
+		1B6B9E201C10366A00AAF68A /* ZQMovieDetailInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B9E1E1C10366A00AAF68A /* ZQMovieDetailInfoController.m */; };
+		1B6F45A91C0ED502001FA332 /* poster_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6F45A81C0ED502001FA332 /* poster_default@2x.png */; };
+		1B6F45AD1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F45AB1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.m */; };
+		1B6F45AE1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B6F45AC1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.xib */; };
+		1B8E24991C0C534800AC5D34 /* ShowInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E248E1C0C534800AC5D34 /* ShowInViewController.m */; };
+		1B8E249A1C0C534800AC5D34 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E24921C0C534800AC5D34 /* MovieCell.m */; };
+		1B8E249B1C0C534800AC5D34 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8E24931C0C534800AC5D34 /* MovieCell.xib */; };
+		1B8E249C1C0C534800AC5D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E24961C0C534800AC5D34 /* AppDelegate.m */; };
+		1B8E249D1C0C534800AC5D34 /* TabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E24981C0C534800AC5D34 /* TabController.m */; };
+		1B8E24A01C0D422900AC5D34 /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E249F1C0D422900AC5D34 /* MovieModel.m */; };
+		1B8E24A61C0D42DB00AC5D34 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E24A51C0D42DB00AC5D34 /* ImageModel.m */; };
+		1B8E24A91C0D4BC300AC5D34 /* CastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E24A81C0D4BC300AC5D34 /* CastModel.m */; };
+		1BAE43B31C10410700524A72 /* ZQNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE43B21C10410700524A72 /* ZQNaviViewController.m */; };
+		1BAE43B51C10461A00524A72 /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE43B41C10461A00524A72 /* navbar@2x.png */; };
+		1BAE43B81C1048B000524A72 /* ZQDetailMovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE43B71C1048B000524A72 /* ZQDetailMovieModel.m */; };
+		BD07D359ABAAAF8291ED7119 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071C7D26AC9373FC5C6A6C25 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D04D29B23FFCFFFB7BEE11 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		071C7D26AC9373FC5C6A6C25 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B250D0D1C0AEF4200B13630 /* doubanMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doubanMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B250D111C0AEF4200B13630 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1B250D131C0AEF4200B13630 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1B250D141C0AEF4200B13630 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B250D161C0AEF4200B13630 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1B250D171C0AEF4200B13630 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1B250D1A1C0AEF4200B13630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B250D1C1C0AEF4200B13630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B250D1F1C0AEF4200B13630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +71,43 @@
 		1B250D311C0AEF4200B13630 /* doubanMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doubanMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B250D351C0AEF4200B13630 /* doubanMovieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = doubanMovieUITests.m; sourceTree = "<group>"; };
 		1B250D371C0AEF4200B13630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B411F9A1C1196930054164D /* MovieInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieInfoCell.h; sourceTree = "<group>"; };
+		1B411F9B1C1196930054164D /* MovieInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieInfoCell.m; sourceTree = "<group>"; };
+		1B411F9C1C1196930054164D /* MovieInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieInfoCell.xib; sourceTree = "<group>"; };
+		1B6B9E061C0FDB8D00AAF68A /* ZQRatingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQRatingModel.h; sourceTree = "<group>"; };
+		1B6B9E071C0FDB8D00AAF68A /* ZQRatingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQRatingModel.m; sourceTree = "<group>"; };
+		1B6B9E091C0FE5F700AAF68A /* graystar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graystar@2x.png"; sourceTree = "<group>"; };
+		1B6B9E0B1C0FE61B00AAF68A /* redstar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redstar@2x.png"; sourceTree = "<group>"; };
+		1B6B9E0D1C1019BA00AAF68A /* ratingstar_half@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ratingstar_half@2x.png"; sourceTree = "<group>"; };
+		1B6B9E0F1C101FD400AAF68A /* star_half@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_half@2x.png"; sourceTree = "<group>"; };
+		1B6B9E111C1027E300AAF68A /* upcoming_cn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upcoming_cn@2x.png"; sourceTree = "<group>"; };
+		1B6B9E1D1C10366A00AAF68A /* ZQMovieDetailInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQMovieDetailInfoController.h; sourceTree = "<group>"; };
+		1B6B9E1E1C10366A00AAF68A /* ZQMovieDetailInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQMovieDetailInfoController.m; sourceTree = "<group>"; };
+		1B6F45A81C0ED502001FA332 /* poster_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poster_default@2x.png"; sourceTree = "<group>"; };
+		1B6F45AA1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQCollectionHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		1B6F45AB1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQCollectionHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		1B6F45AC1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQCollectionHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		1B8E248D1C0C534800AC5D34 /* ShowInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowInViewController.h; sourceTree = "<group>"; };
+		1B8E248E1C0C534800AC5D34 /* ShowInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowInViewController.m; sourceTree = "<group>"; };
+		1B8E24911C0C534800AC5D34 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		1B8E24921C0C534800AC5D34 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		1B8E24931C0C534800AC5D34 /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		1B8E24951C0C534800AC5D34 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B8E24961C0C534800AC5D34 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B8E24971C0C534800AC5D34 /* TabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabController.h; sourceTree = "<group>"; };
+		1B8E24981C0C534800AC5D34 /* TabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabController.m; sourceTree = "<group>"; };
+		1B8E249E1C0D422900AC5D34 /* MovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieModel.h; sourceTree = "<group>"; };
+		1B8E249F1C0D422900AC5D34 /* MovieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieModel.m; sourceTree = "<group>"; };
+		1B8E24A41C0D42DB00AC5D34 /* ImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		1B8E24A51C0D42DB00AC5D34 /* ImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
+		1B8E24A71C0D4BC300AC5D34 /* CastModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastModel.h; sourceTree = "<group>"; };
+		1B8E24A81C0D4BC300AC5D34 /* CastModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastModel.m; sourceTree = "<group>"; };
+		1BAE43B11C10410700524A72 /* ZQNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQNaviViewController.h; sourceTree = "<group>"; };
+		1BAE43B21C10410700524A72 /* ZQNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQNaviViewController.m; sourceTree = "<group>"; };
+		1BAE43B41C10461A00524A72 /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		1BAE43B61C1048B000524A72 /* ZQDetailMovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQDetailMovieModel.h; sourceTree = "<group>"; };
+		1BAE43B71C1048B000524A72 /* ZQDetailMovieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQDetailMovieModel.m; sourceTree = "<group>"; };
+		4ECA83D783ED0437B0313A79 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD07D359ABAAAF8291ED7119 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +143,8 @@
 				1B250D291C0AEF4200B13630 /* doubanMovieTests */,
 				1B250D341C0AEF4200B13630 /* doubanMovieUITests */,
 				1B250D0E1C0AEF4200B13630 /* Products */,
+				548A1FF5E9838DDC0665082B /* Pods */,
+				C5700CA4C39BCF8D619D0472 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +161,18 @@
 		1B250D0F1C0AEF4200B13630 /* doubanMovie */ = {
 			isa = PBXGroup;
 			children = (
-				1B250D131C0AEF4200B13630 /* AppDelegate.h */,
-				1B250D141C0AEF4200B13630 /* AppDelegate.m */,
-				1B250D161C0AEF4200B13630 /* ViewController.h */,
-				1B250D171C0AEF4200B13630 /* ViewController.m */,
+				1B6B9E0B1C0FE61B00AAF68A /* redstar@2x.png */,
+				1B6B9E091C0FE5F700AAF68A /* graystar@2x.png */,
+				1B6B9E0F1C101FD400AAF68A /* star_half@2x.png */,
+				1B6B9E0D1C1019BA00AAF68A /* ratingstar_half@2x.png */,
+				1BAE43B41C10461A00524A72 /* navbar@2x.png */,
+				1B6F45A81C0ED502001FA332 /* poster_default@2x.png */,
+				1B6B9E111C1027E300AAF68A /* upcoming_cn@2x.png */,
+				1B6F45AF1C0F3F4D001FA332 /* 电影详情 */,
+				1B8E24891C0C534800AC5D34 /* 我的电影 */,
+				1B8E248A1C0C534800AC5D34 /* 影院 */,
+				1B8E248B1C0C534800AC5D34 /* 正在上映 */,
+				1B8E24941C0C534800AC5D34 /* Other */,
 				1B250D191C0AEF4200B13630 /* Main.storyboard */,
 				1B250D1C1C0AEF4200B13630 /* Assets.xcassets */,
 				1B250D1E1C0AEF4200B13630 /* LaunchScreen.storyboard */,
@@ -140,6 +208,135 @@
 			path = doubanMovieUITests;
 			sourceTree = "<group>";
 		};
+		1B6F45AF1C0F3F4D001FA332 /* 电影详情 */ = {
+			isa = PBXGroup;
+			children = (
+				1B6F45B01C0F3F4D001FA332 /* Controllers */,
+				1B6F45B11C0F3F4D001FA332 /* Model */,
+				1B6F45B21C0F3F4D001FA332 /* View */,
+			);
+			path = "电影详情";
+			sourceTree = "<group>";
+		};
+		1B6F45B01C0F3F4D001FA332 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B6B9E1D1C10366A00AAF68A /* ZQMovieDetailInfoController.h */,
+				1B6B9E1E1C10366A00AAF68A /* ZQMovieDetailInfoController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B6F45B11C0F3F4D001FA332 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE43B61C1048B000524A72 /* ZQDetailMovieModel.h */,
+				1BAE43B71C1048B000524A72 /* ZQDetailMovieModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B6F45B21C0F3F4D001FA332 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B411F9A1C1196930054164D /* MovieInfoCell.h */,
+				1B411F9B1C1196930054164D /* MovieInfoCell.m */,
+				1B411F9C1C1196930054164D /* MovieInfoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B8E24891C0C534800AC5D34 /* 我的电影 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的电影";
+			sourceTree = "<group>";
+		};
+		1B8E248A1C0C534800AC5D34 /* 影院 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "影院";
+			sourceTree = "<group>";
+		};
+		1B8E248B1C0C534800AC5D34 /* 正在上映 */ = {
+			isa = PBXGroup;
+			children = (
+				1B8E248C1C0C534800AC5D34 /* Controllers */,
+				1B8E248F1C0C534800AC5D34 /* Model */,
+				1B8E24901C0C534800AC5D34 /* View */,
+			);
+			path = "正在上映";
+			sourceTree = "<group>";
+		};
+		1B8E248C1C0C534800AC5D34 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B8E248D1C0C534800AC5D34 /* ShowInViewController.h */,
+				1B8E248E1C0C534800AC5D34 /* ShowInViewController.m */,
+				1BAE43B11C10410700524A72 /* ZQNaviViewController.h */,
+				1BAE43B21C10410700524A72 /* ZQNaviViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B8E248F1C0C534800AC5D34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B8E249E1C0D422900AC5D34 /* MovieModel.h */,
+				1B8E249F1C0D422900AC5D34 /* MovieModel.m */,
+				1B8E24A71C0D4BC300AC5D34 /* CastModel.h */,
+				1B8E24A81C0D4BC300AC5D34 /* CastModel.m */,
+				1B8E24A41C0D42DB00AC5D34 /* ImageModel.h */,
+				1B8E24A51C0D42DB00AC5D34 /* ImageModel.m */,
+				1B6B9E061C0FDB8D00AAF68A /* ZQRatingModel.h */,
+				1B6B9E071C0FDB8D00AAF68A /* ZQRatingModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B8E24901C0C534800AC5D34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B8E24911C0C534800AC5D34 /* MovieCell.h */,
+				1B8E24921C0C534800AC5D34 /* MovieCell.m */,
+				1B8E24931C0C534800AC5D34 /* MovieCell.xib */,
+				1B6F45AA1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.h */,
+				1B6F45AB1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.m */,
+				1B6F45AC1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B8E24941C0C534800AC5D34 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1B8E24951C0C534800AC5D34 /* AppDelegate.h */,
+				1B8E24961C0C534800AC5D34 /* AppDelegate.m */,
+				1B8E24971C0C534800AC5D34 /* TabController.h */,
+				1B8E24981C0C534800AC5D34 /* TabController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		548A1FF5E9838DDC0665082B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01D04D29B23FFCFFFB7BEE11 /* Pods.debug.xcconfig */,
+				4ECA83D783ED0437B0313A79 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5700CA4C39BCF8D619D0472 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				071C7D26AC9373FC5C6A6C25 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +344,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B250D3A1C0AEF4200B13630 /* Build configuration list for PBXNativeTarget "doubanMovie" */;
 			buildPhases = (
+				4A2AD79A389F5460A039C722 /* Check Pods Manifest.lock */,
 				1B250D091C0AEF4200B13630 /* Sources */,
 				1B250D0A1C0AEF4200B13630 /* Frameworks */,
 				1B250D0B1C0AEF4200B13630 /* Resources */,
+				C6E90C7E9FBD11822A858AF0 /* Embed Pods Frameworks */,
+				A4079FD95375554131EB9E4B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +407,7 @@
 				TargetAttributes = {
 					1B250D0C1C0AEF4200B13630 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 95858G9H6M;
 					};
 					1B250D251C0AEF4200B13630 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -243,9 +444,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6B9E121C1027E300AAF68A /* upcoming_cn@2x.png in Resources */,
+				1B411F9E1C1196930054164D /* MovieInfoCell.xib in Resources */,
+				1B6B9E0C1C0FE61B00AAF68A /* redstar@2x.png in Resources */,
+				1B6B9E0E1C1019BA00AAF68A /* ratingstar_half@2x.png in Resources */,
 				1B250D201C0AEF4200B13630 /* LaunchScreen.storyboard in Resources */,
+				1B6B9E0A1C0FE5F700AAF68A /* graystar@2x.png in Resources */,
 				1B250D1D1C0AEF4200B13630 /* Assets.xcassets in Resources */,
+				1B8E249B1C0C534800AC5D34 /* MovieCell.xib in Resources */,
+				1B6F45A91C0ED502001FA332 /* poster_default@2x.png in Resources */,
+				1BAE43B51C10461A00524A72 /* navbar@2x.png in Resources */,
+				1B6B9E101C101FD400AAF68A /* star_half@2x.png in Resources */,
 				1B250D1B1C0AEF4200B13630 /* Main.storyboard in Resources */,
+				1B6F45AE1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +476,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A2AD79A389F5460A039C722 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4079FD95375554131EB9E4B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E90C7E9FBD11822A858AF0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B250D091C0AEF4200B13630 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B250D181C0AEF4200B13630 /* ViewController.m in Sources */,
-				1B250D151C0AEF4200B13630 /* AppDelegate.m in Sources */,
+				1B8E249C1C0C534800AC5D34 /* AppDelegate.m in Sources */,
+				1BAE43B31C10410700524A72 /* ZQNaviViewController.m in Sources */,
+				1B8E24991C0C534800AC5D34 /* ShowInViewController.m in Sources */,
+				1B8E24A91C0D4BC300AC5D34 /* CastModel.m in Sources */,
+				1B411F9D1C1196930054164D /* MovieInfoCell.m in Sources */,
+				1B6B9E081C0FDB8D00AAF68A /* ZQRatingModel.m in Sources */,
+				1B8E249D1C0C534800AC5D34 /* TabController.m in Sources */,
 				1B250D121C0AEF4200B13630 /* main.m in Sources */,
+				1BAE43B81C1048B000524A72 /* ZQDetailMovieModel.m in Sources */,
+				1B8E24A01C0D422900AC5D34 /* MovieModel.m in Sources */,
+				1B6B9E201C10366A00AAF68A /* ZQMovieDetailInfoController.m in Sources */,
+				1B6F45AD1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.m in Sources */,
+				1B8E24A61C0D42DB00AC5D34 /* ImageModel.m in Sources */,
+				1B8E249A1C0C534800AC5D34 /* MovieCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,23 +681,29 @@
 		};
 		1B250D3B1C0AEF4200B13630 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D04D29B23FFCFFFB7BEE11 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = doubanMovie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZQ.doubanMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		1B250D3C1C0AEF4200B13630 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECA83D783ED0437B0313A79 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = doubanMovie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZQ.doubanMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
@@ -498,6 +774,7 @@
 				1B250D3C1C0AEF4200B13630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B250D3D1C0AEF4200B13630 /* Build configuration list for PBXNativeTarget "doubanMovieTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +783,7 @@
 				1B250D3F1C0AEF4200B13630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B250D401C0AEF4200B13630 /* Build configuration list for PBXNativeTarget "doubanMovieUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +792,7 @@
 				1B250D421C0AEF4200B13630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

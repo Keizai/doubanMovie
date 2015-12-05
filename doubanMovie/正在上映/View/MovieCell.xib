@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="moviecell" id="gTV-IL-0wX" customClass="MovieCell">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="175"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="175"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWF-na-9ph">
+                        <rect key="frame" x="0.0" y="130" width="90" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="Z10-tz-EdL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o8W-cU-DjF">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="130"/>
+                    </imageView>
+                    <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rrd-ha-E1K" customClass="HCSStarRatingView">
+                        <rect key="frame" x="0.0" y="163" width="60" height="12"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="allowsHalfStars" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phz-Pg-dXX">
+                        <rect key="frame" x="60" y="163" width="30" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="UkU-Dy-aNb"/>
+                            <constraint firstAttribute="height" constant="12" id="nkI-ng-FR8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.97647058823529409" green="0.42745098039215684" blue="0.32156862745098042" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="phz-Pg-dXX" firstAttribute="bottom" secondItem="Rrd-ha-E1K" secondAttribute="bottom" id="1Mt-vM-6VE"/>
+                <constraint firstItem="o8W-cU-DjF" firstAttribute="leading" secondItem="PWF-na-9ph" secondAttribute="leading" id="3g4-JE-ajx"/>
+                <constraint firstItem="Rrd-ha-E1K" firstAttribute="top" secondItem="PWF-na-9ph" secondAttribute="bottom" id="9su-Uo-cvc"/>
+                <constraint firstItem="o8W-cU-DjF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="BHJ-PA-vWO"/>
+                <constraint firstAttribute="bottom" secondItem="Rrd-ha-E1K" secondAttribute="bottom" id="EmJ-sz-Duk"/>
+                <constraint firstItem="PWF-na-9ph" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="IU5-p6-VHd"/>
+                <constraint firstItem="phz-Pg-dXX" firstAttribute="leading" secondItem="Rrd-ha-E1K" secondAttribute="trailing" id="JGj-ET-rGC"/>
+                <constraint firstItem="PWF-na-9ph" firstAttribute="trailing" secondItem="o8W-cU-DjF" secondAttribute="trailing" id="KpD-Zp-zyr"/>
+                <constraint firstItem="PWF-na-9ph" firstAttribute="top" secondItem="o8W-cU-DjF" secondAttribute="bottom" id="MAF-eY-Hiw"/>
+                <constraint firstAttribute="trailing" secondItem="PWF-na-9ph" secondAttribute="trailing" id="Rbw-C6-dXK"/>
+                <constraint firstItem="Rrd-ha-E1K" firstAttribute="leading" secondItem="PWF-na-9ph" secondAttribute="leading" id="m5h-rh-z83"/>
+                <constraint firstItem="phz-Pg-dXX" firstAttribute="top" secondItem="Rrd-ha-E1K" secondAttribute="top" id="qBg-i4-XRD"/>
+                <constraint firstItem="phz-Pg-dXX" firstAttribute="trailing" secondItem="PWF-na-9ph" secondAttribute="trailing" id="wY3-DN-T7I"/>
+            </constraints>
+            <connections>
+                <outlet property="nameLabel" destination="PWF-na-9ph" id="Nj5-Pz-FoM"/>
+                <outlet property="postImageView" destination="o8W-cU-DjF" id="GW5-0I-SHg"/>
+                <outlet property="ratingValuelabel" destination="phz-Pg-dXX" id="qeg-3y-cXJ"/>
+                <outlet property="starRatingView" destination="Rrd-ha-E1K" id="LNP-b3-G13"/>
+            </connections>
+            <point key="canvasLocation" x="454" y="355.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
