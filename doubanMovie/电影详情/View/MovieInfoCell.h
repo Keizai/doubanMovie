@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class MovieModel;
 @interface MovieInfoCell : UITableViewCell
+
+@property (nonatomic, strong) MovieModel *model;
 
 @end

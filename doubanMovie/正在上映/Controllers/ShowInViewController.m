@@ -24,7 +24,6 @@ typedef NS_ENUM(NSInteger, ZQMovieTime) {
 @interface ShowInViewController ()<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UICollectionViewDelegate,ZQCollectionFooterDelegate>
 @property (nonatomic, weak) UICollectionView *collectionView;
 @property (nonatomic, strong) NSMutableArray *moviesInTheater;
-
 @property (nonatomic, strong) NSMutableArray *moviesComingSoon;
 
 @end
@@ -49,18 +48,19 @@ static NSString *const footerID = @"footer";
 
 - (UICollectionView *)collectionView{
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
-    UICollectionView *collection = [[UICollectionView alloc]initWithFrame:CGRectMake(10,20,self.view.bounds.size.width-20,self.view.bounds.size.height) collectionViewLayout:flowLayout];
+    UICollectionView *collection = [[UICollectionView alloc]initWithFrame:CGRectMake(0,20,self.view.bounds.size.width,self.view.bounds.size.height) collectionViewLayout:flowLayout];
     [collection registerNib:[UINib nibWithNibName:@"ZQCollectionHeaderCollectionReusableView" bundle:nil] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:footerID];
     [collection registerNib:[UINib nibWithNibName:@"MovieCell" bundle:nil]forCellWithReuseIdentifier:cellID];
-    
+    collection.contentInset = UIEdgeInsetsMake(10, 10, 100, 10);
     [collection setBackgroundColor:[UIColor whiteColor]];
     collection.dataSource = self;
     collection.delegate = self;
-   
-    [self.view addSubview:collection];
+   [self.view addSubview:collection];
+    
     _collectionView = collection;
     return _collectionView;
 }
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -154,7 +154,11 @@ static NSString *const footerID = @"footer";
     return CGSizeMake(90, 175);
 }
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForFooterInSection:(NSInteger)section{
-            return CGSizeMake(320, 100);
+    if (section == ZQMovieInTheater) {
+        return CGSizeMake(320, 50);
+
+    }
+    return CGSizeMake(0, 0);
     
 }
 

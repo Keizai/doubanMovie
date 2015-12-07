@@ -30,7 +30,12 @@
  *  演员
  */
 @property (nonatomic, strong) NSArray *casts;
-
-
-
+/**
+ *  电影简介
+ */
+@property (nonatomic, copy) NSString *summart;
+/**
+ *  上映年份
+ */
+@property (nonatomic, copy) NSString *year;
 @end

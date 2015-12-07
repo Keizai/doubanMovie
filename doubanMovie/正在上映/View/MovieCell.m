@@ -37,7 +37,7 @@
     self.nameLabel.text = model.title;
     self.nameLabel.lineBreakMode = NSLineBreakByTruncatingMiddle;
     
-    [self.postImageView sd_setImageWithURL:[NSURL URLWithString:model.images.medium] placeholderImage:[UIImage imageNamed:@"poster_default"]];
+    [self.postImageView sd_setImageWithURL:[NSURL URLWithString:model.images.large] placeholderImage:[UIImage imageNamed:@"poster_default"]];
     
     self.starRatingView.maximumValue = 5;
     self.starRatingView.minimumValue = 0;

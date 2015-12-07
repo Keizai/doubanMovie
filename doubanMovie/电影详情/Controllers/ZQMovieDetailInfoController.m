@@ -10,6 +10,8 @@
 #import "AFNetworking.h"
 #import "MovieInfoCell.h"
 #import "MBProgressHUD.h"
+#import "MJExtension.h"
+#import "MovieModel.h"
 typedef NS_ENUM(NSInteger, ZQMovieTime) {
     ZQMovieInfo = 1,
     ZQMoviePhotos,
@@ -17,19 +19,29 @@ typedef NS_ENUM(NSInteger, ZQMovieTime) {
     ZQMovieComment,
 };
 @interface ZQMovieDetailInfoController ()
-
+@property (nonatomic, strong) NSMutableArray *dataSource;
 @end
 
 @implementation ZQMovieDetailInfoController
 static NSString *const DetailInfoID = @"detailCell";
 
+- (NSMutableArray *)dataSource{
+    if (!_dataSource) {
+        _dataSource = [[NSMutableArray alloc]init];
+    }
+    return _dataSource;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [self.navigationController setNavigationBarHidden:NO];
     self.navigationController.navigationBar.backgroundColor = [UIColor blackColor];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
     [self.tableView registerNib:[UINib nibWithNibName:@"MovieInfoCell"bundle:nil] forCellReuseIdentifier:DetailInfoID];
-    
+    self.tableView.allowsSelection = NO;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [self loadData];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -38,6 +50,22 @@ static NSString *const DetailInfoID = @"detailCell";
     
 }
 
+- (void)loadData{
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+
+    NSString *str = @"https://api.douban.com/v2/movie/subject/";
+    NSString *url = [str stringByAppendingString:self.idstr];
+    [manager GET:url parameters:nil success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
+        
+        MovieModel *model = [MovieModel mj_objectWithKeyValues:responseObject];
+        [_dataSource addObject:model];
+        [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+        [self.tableView reloadData];
+    } failure:^(AFHTTPRequestOperation * _Nullable operation, NSError * _Nonnull error) {
+        NSLog(@"fail");
+    }];
+}
 //- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
 //    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
 //    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
@@ -58,22 +86,25 @@ static NSString *const DetailInfoID = @"detailCell";
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
     return 1;
     
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 1;
+    return self.dataSource.count;
 }
 
-
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 0) {
+        return 210;
+    }
+    return 0;
+}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
         MovieInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:DetailInfoID];
-    
+    cell.model = _dataSource[indexPath.row];
     
     
     
