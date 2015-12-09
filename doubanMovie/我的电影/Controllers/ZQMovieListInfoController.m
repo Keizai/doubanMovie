@@ -55,7 +55,6 @@ static int start = 20;
     // Dispose of any resources that can be recreated.
 }
 - (void)loadMoreData{
-    NSLog(@"load");
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     
     NSString *url = @"https://api.douban.com/v2/movie/top250";
@@ -75,9 +74,7 @@ static int start = 20;
         start = start+20;
         [self.tableView.mj_footer endRefreshing];
 
-        NSLog(@"%d",count);
     } failure:^(AFHTTPRequestOperation * _Nullable operation, NSError * _Nonnull error) {
-        NSLog(@"fail");
     }];
 
 }

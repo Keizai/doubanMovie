@@ -36,7 +36,6 @@
     self.ratingBar.userInteractionEnabled = NO;
     self.imageView.clipsToBounds = YES;
     self.ratingBar.value = (NSInteger)model.rating.average/2.0;
-    NSLog(@"%f",model.rating.average);
     self.ratingLabel.text = [NSString stringWithFormat:@"%.1f",model.rating.average];
     self.yearLabel.text = model.year;
     self.ratingcountLabel.text = [NSString stringWithFormat:@"%@人评分",model.ratings_count];

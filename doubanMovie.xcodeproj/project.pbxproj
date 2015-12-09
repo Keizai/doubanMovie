@@ -15,7 +15,6 @@
 		1B250D201C0AEF4200B13630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B250D1E1C0AEF4200B13630 /* LaunchScreen.storyboard */; };
 		1B250D2B1C0AEF4200B13630 /* doubanMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B250D2A1C0AEF4200B13630 /* doubanMovieTests.m */; };
 		1B250D361C0AEF4200B13630 /* doubanMovieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B250D351C0AEF4200B13630 /* doubanMovieUITests.m */; };
-		1B3384E31C167B76007242A0 /* ZQTheaterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3384E21C167B76007242A0 /* ZQTheaterController.m */; };
 		1B3384E51C16866C007242A0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3384E41C16866C007242A0 /* Default@2x.png */; };
 		1B3384E81C16AE65007242A0 /* ZQTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3384E71C16AE65007242A0 /* ZQTestController.m */; };
 		1B3384EA1C16B0C1007242A0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3384E91C16B0C1007242A0 /* CoreLocation.framework */; };
@@ -84,8 +83,6 @@
 		1B250D311C0AEF4200B13630 /* doubanMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doubanMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B250D351C0AEF4200B13630 /* doubanMovieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = doubanMovieUITests.m; sourceTree = "<group>"; };
 		1B250D371C0AEF4200B13630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B3384E11C167B76007242A0 /* ZQTheaterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTheaterController.h; sourceTree = "<group>"; };
-		1B3384E21C167B76007242A0 /* ZQTheaterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTheaterController.m; sourceTree = "<group>"; };
 		1B3384E41C16866C007242A0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1B3384E61C16AE65007242A0 /* ZQTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTestController.h; sourceTree = "<group>"; };
 		1B3384E71C16AE65007242A0 /* ZQTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTestController.m; sourceTree = "<group>"; };
@@ -267,8 +264,6 @@
 		1B3384DE1C167B4B007242A0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1B3384E11C167B76007242A0 /* ZQTheaterController.h */,
-				1B3384E21C167B76007242A0 /* ZQTheaterController.m */,
 				1B3384E61C16AE65007242A0 /* ZQTestController.h */,
 				1B3384E71C16AE65007242A0 /* ZQTestController.m */,
 			);
@@ -628,7 +623,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B3384E31C167B76007242A0 /* ZQTheaterController.m in Sources */,
 				1B3384FC1C182AAE007242A0 /* ZQMovieListInfoController.m in Sources */,
 				1B3384F31C16C3F5007242A0 /* ZQMovieInTheaterModel.m in Sources */,
 				1B8E249C1C0C534800AC5D34 /* AppDelegate.m in Sources */,

@@ -34,7 +34,6 @@ static NSString *const DetailInfoID = @"detailCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.navigationBar.hidden
     self.navigationController.navigationBar.backItem.backBarButtonItem.image = [UIImage imageNamed:@"back"];
     [self.tableView registerNib:[UINib nibWithNibName:@"MovieInfoCell"bundle:nil] forCellReuseIdentifier:DetailInfoID];
     self.tableView.allowsSelection = NO;
@@ -62,7 +61,6 @@ static NSString *const DetailInfoID = @"detailCell";
         [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
         [self.tableView reloadData];
     } failure:^(AFHTTPRequestOperation * _Nullable operation, NSError * _Nonnull error) {
-        NSLog(@"fail");
     }];
 }
 //- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
