@@ -13,9 +13,12 @@
 #import "ImageModel.h"
 #import "ZQRatingModel.h"
 @interface MovieInfoCell()
+@property (weak, nonatomic) IBOutlet UILabel *yearLabel;
+@property (weak, nonatomic) IBOutlet UIButton *ticketButton;
 @property (weak, nonatomic) IBOutlet UIImageView *postImage;
 @property (weak, nonatomic) IBOutlet HCSStarRatingView *ratingBar;
 @property (weak, nonatomic) IBOutlet UILabel *ratingLabel;
+@property (weak, nonatomic) IBOutlet UILabel *ratingcountLabel;
 
 @end
 @implementation MovieInfoCell
@@ -24,7 +27,6 @@
 //    self.imageView sd_setImageWithURL:[NSURL URLWithString:model.images.small] placeholderImage:[UIImage imageNamed:@"poster_default"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
 //        
 //    }
-    
     _model = model;
     self.imageView.contentMode = UIViewContentModeCenter;
     [self.imageView sd_setImageWithURL:[NSURL URLWithString:model.images.medium] placeholderImage:[UIImage imageNamed:@"poster_default"]];
@@ -36,12 +38,18 @@
     self.ratingBar.value = (NSInteger)model.rating.average/2.0;
     NSLog(@"%f",model.rating.average);
     self.ratingLabel.text = [NSString stringWithFormat:@"%.1f",model.rating.average];
-    
+    self.yearLabel.text = model.year;
+    self.ratingcountLabel.text = [NSString stringWithFormat:@"%@人评分",model.ratings_count];
 }
 - (void)layoutSubviews{
     CGRect frame =self.imageView.frame;
     frame = CGRectMake(10, 10, 90, 130);
     self.imageView.frame = frame;
+    if (self.ticket == NO) {
+        self.ticketButton.hidden = YES;
+    }
+
+    
 }
 - (void)awakeFromNib {
     // Initialization code

@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationBar setBackgroundColor:[UIColor blackColor]];
+    
     // Do any additional setup after loading the view.
 }
 + (void)initialize
@@ -33,13 +33,17 @@
 {
     [super pushViewController:viewController animated:animated];
 
-    if (self.viewControllers.count ==0) { // 如果现在push的不是栈底控制器(最先push进来的那个控制器)
+    if (self.viewControllers.count >0) { // 如果现在push的不是栈底控制器(最先push进来的那个控制器)
+        self.navigationBar.barStyle = UIBarStyleBlack;
+        self.navigationBar.translucent = NO;
         NSLog(@"0");
+        viewController.navigationController.navigationBar.hidden = NO;
+//        [viewController.navigationController setNavigationBarHidden:YES];
 //        viewController.hidesBottomBarWhenPushed = YES;
-        viewController.navigationController.navigationBar.hidden = YES;
     } else {
         NSLog(@"2");
-        viewController.navigationController.navigationBar.hidden = NO;
+        
+        
     }
 
 }

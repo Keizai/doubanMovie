@@ -10,5 +10,5 @@
 #import "HCSStarRatingView.h"
 @interface ZQMovieDetailInfoController : UITableViewController
 @property (nonatomic, copy) NSString *idstr;
-
+@property (nonatomic) BOOL *ticket;
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ShowInViewController : UIViewController
+@interface ZQShowInViewController : UIViewController
 
 @end

@@ -12,7 +12,7 @@
 #import "MBProgressHUD.h"
 #import "MJExtension.h"
 #import "MovieModel.h"
-typedef NS_ENUM(NSInteger, ZQMovieTime) {
+typedef NS_ENUM(NSInteger, ZQMovie) {
     ZQMovieInfo = 1,
     ZQMoviePhotos,
     ZQMovieSummary,
@@ -34,10 +34,8 @@ static NSString *const DetailInfoID = @"detailCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self.navigationController setNavigationBarHidden:NO];
-    self.navigationController.navigationBar.backgroundColor = [UIColor blackColor];
-    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
+    self.navigationController.navigationBar.hidden
+    self.navigationController.navigationBar.backItem.backBarButtonItem.image = [UIImage imageNamed:@"back"];
     [self.tableView registerNib:[UINib nibWithNibName:@"MovieInfoCell"bundle:nil] forCellReuseIdentifier:DetailInfoID];
     self.tableView.allowsSelection = NO;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -56,6 +54,7 @@ static NSString *const DetailInfoID = @"detailCell";
 
     NSString *str = @"https://api.douban.com/v2/movie/subject/";
     NSString *url = [str stringByAppendingString:self.idstr];
+//    NSDictionary *para = @{@"id":self.idstr};
     [manager GET:url parameters:nil success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
         
         MovieModel *model = [MovieModel mj_objectWithKeyValues:responseObject];
@@ -104,11 +103,14 @@ static NSString *const DetailInfoID = @"detailCell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
         MovieInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:DetailInfoID];
-    cell.model = _dataSource[indexPath.row];
+        cell.ticket = self.ticket;
+        cell.model = _dataSource[indexPath.row];
+        return cell;
     
     
     
-    return cell;
+    
+    
 }
 
 

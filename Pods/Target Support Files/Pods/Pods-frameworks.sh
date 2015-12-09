@@ -89,6 +89,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/HCSStarRatingView.framework"
   install_framework "Pods/MBProgressHUD.framework"
   install_framework "Pods/MJExtension.framework"
+  install_framework "Pods/MJRefresh.framework"
   install_framework "Pods/SDWebImage.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -97,5 +98,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/HCSStarRatingView.framework"
   install_framework "Pods/MBProgressHUD.framework"
   install_framework "Pods/MJExtension.framework"
+  install_framework "Pods/MJRefresh.framework"
   install_framework "Pods/SDWebImage.framework"
 fi

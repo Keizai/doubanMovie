@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B08576A1C15D6D00084F091 /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B0857691C15D6D00084F091 /* tabbar@2x.png */; };
+		1B08576C1C15D9160084F091 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B08576B1C15D9160084F091 /* back@2x.png */; };
 		1B250D121C0AEF4200B13630 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B250D111C0AEF4200B13630 /* main.m */; };
 		1B250D1B1C0AEF4200B13630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B250D191C0AEF4200B13630 /* Main.storyboard */; };
 		1B250D1D1C0AEF4200B13630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B250D1C1C0AEF4200B13630 /* Assets.xcassets */; };
 		1B250D201C0AEF4200B13630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B250D1E1C0AEF4200B13630 /* LaunchScreen.storyboard */; };
 		1B250D2B1C0AEF4200B13630 /* doubanMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B250D2A1C0AEF4200B13630 /* doubanMovieTests.m */; };
 		1B250D361C0AEF4200B13630 /* doubanMovieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B250D351C0AEF4200B13630 /* doubanMovieUITests.m */; };
+		1B3384E31C167B76007242A0 /* ZQTheaterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3384E21C167B76007242A0 /* ZQTheaterController.m */; };
+		1B3384E51C16866C007242A0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B3384E41C16866C007242A0 /* Default@2x.png */; };
+		1B3384E81C16AE65007242A0 /* ZQTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3384E71C16AE65007242A0 /* ZQTestController.m */; };
+		1B3384EA1C16B0C1007242A0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3384E91C16B0C1007242A0 /* CoreLocation.framework */; };
+		1B3384ED1C16C13E007242A0 /* ZQNearTheaterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3384EC1C16C13E007242A0 /* ZQNearTheaterModel.m */; };
+		1B3384F01C16C335007242A0 /* ZQTheaterInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3384EF1C16C335007242A0 /* ZQTheaterInfoModel.m */; };
+		1B3384F31C16C3F5007242A0 /* ZQMovieInTheaterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3384F21C16C3F5007242A0 /* ZQMovieInTheaterModel.m */; };
+		1B3384F61C16C4E2007242A0 /* ZQBroadcastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3384F51C16C4E2007242A0 /* ZQBroadcastModel.m */; };
+		1B3384FC1C182AAE007242A0 /* ZQMovieListInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3384FB1C182AAE007242A0 /* ZQMovieListInfoController.m */; };
 		1B411F9D1C1196930054164D /* MovieInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B411F9B1C1196930054164D /* MovieInfoCell.m */; };
 		1B411F9E1C1196930054164D /* MovieInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B411F9C1C1196930054164D /* MovieInfoCell.xib */; };
 		1B6B9E081C0FDB8D00AAF68A /* ZQRatingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B9E071C0FDB8D00AAF68A /* ZQRatingModel.m */; };
@@ -25,7 +36,7 @@
 		1B6F45A91C0ED502001FA332 /* poster_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6F45A81C0ED502001FA332 /* poster_default@2x.png */; };
 		1B6F45AD1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F45AB1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.m */; };
 		1B6F45AE1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B6F45AC1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.xib */; };
-		1B8E24991C0C534800AC5D34 /* ShowInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E248E1C0C534800AC5D34 /* ShowInViewController.m */; };
+		1B8E24991C0C534800AC5D34 /* ZQShowInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E248E1C0C534800AC5D34 /* ZQShowInViewController.m */; };
 		1B8E249A1C0C534800AC5D34 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E24921C0C534800AC5D34 /* MovieCell.m */; };
 		1B8E249B1C0C534800AC5D34 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8E24931C0C534800AC5D34 /* MovieCell.xib */; };
 		1B8E249C1C0C534800AC5D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E24961C0C534800AC5D34 /* AppDelegate.m */; };
@@ -59,6 +70,8 @@
 /* Begin PBXFileReference section */
 		01D04D29B23FFCFFFB7BEE11 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		071C7D26AC9373FC5C6A6C25 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0857691C15D6D00084F091 /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
+		1B08576B1C15D9160084F091 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 		1B250D0D1C0AEF4200B13630 /* doubanMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doubanMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B250D111C0AEF4200B13630 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B250D1A1C0AEF4200B13630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +84,22 @@
 		1B250D311C0AEF4200B13630 /* doubanMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doubanMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B250D351C0AEF4200B13630 /* doubanMovieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = doubanMovieUITests.m; sourceTree = "<group>"; };
 		1B250D371C0AEF4200B13630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3384E11C167B76007242A0 /* ZQTheaterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTheaterController.h; sourceTree = "<group>"; };
+		1B3384E21C167B76007242A0 /* ZQTheaterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTheaterController.m; sourceTree = "<group>"; };
+		1B3384E41C16866C007242A0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1B3384E61C16AE65007242A0 /* ZQTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTestController.h; sourceTree = "<group>"; };
+		1B3384E71C16AE65007242A0 /* ZQTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTestController.m; sourceTree = "<group>"; };
+		1B3384E91C16B0C1007242A0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1B3384EB1C16C13E007242A0 /* ZQNearTheaterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQNearTheaterModel.h; sourceTree = "<group>"; };
+		1B3384EC1C16C13E007242A0 /* ZQNearTheaterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQNearTheaterModel.m; sourceTree = "<group>"; };
+		1B3384EE1C16C335007242A0 /* ZQTheaterInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTheaterInfoModel.h; sourceTree = "<group>"; };
+		1B3384EF1C16C335007242A0 /* ZQTheaterInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTheaterInfoModel.m; sourceTree = "<group>"; };
+		1B3384F11C16C3F5007242A0 /* ZQMovieInTheaterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQMovieInTheaterModel.h; sourceTree = "<group>"; };
+		1B3384F21C16C3F5007242A0 /* ZQMovieInTheaterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQMovieInTheaterModel.m; sourceTree = "<group>"; };
+		1B3384F41C16C4E2007242A0 /* ZQBroadcastModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQBroadcastModel.h; sourceTree = "<group>"; };
+		1B3384F51C16C4E2007242A0 /* ZQBroadcastModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQBroadcastModel.m; sourceTree = "<group>"; };
+		1B3384FA1C182AAE007242A0 /* ZQMovieListInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQMovieListInfoController.h; sourceTree = "<group>"; };
+		1B3384FB1C182AAE007242A0 /* ZQMovieListInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQMovieListInfoController.m; sourceTree = "<group>"; };
 		1B411F9A1C1196930054164D /* MovieInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieInfoCell.h; sourceTree = "<group>"; };
 		1B411F9B1C1196930054164D /* MovieInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieInfoCell.m; sourceTree = "<group>"; };
 		1B411F9C1C1196930054164D /* MovieInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieInfoCell.xib; sourceTree = "<group>"; };
@@ -87,8 +116,8 @@
 		1B6F45AA1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQCollectionHeaderCollectionReusableView.h; sourceTree = "<group>"; };
 		1B6F45AB1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQCollectionHeaderCollectionReusableView.m; sourceTree = "<group>"; };
 		1B6F45AC1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQCollectionHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
-		1B8E248D1C0C534800AC5D34 /* ShowInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowInViewController.h; sourceTree = "<group>"; };
-		1B8E248E1C0C534800AC5D34 /* ShowInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowInViewController.m; sourceTree = "<group>"; };
+		1B8E248D1C0C534800AC5D34 /* ZQShowInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQShowInViewController.h; sourceTree = "<group>"; };
+		1B8E248E1C0C534800AC5D34 /* ZQShowInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQShowInViewController.m; sourceTree = "<group>"; };
 		1B8E24911C0C534800AC5D34 /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
 		1B8E24921C0C534800AC5D34 /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
 		1B8E24931C0C534800AC5D34 /* MovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
@@ -115,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3384EA1C16B0C1007242A0 /* CoreLocation.framework in Frameworks */,
 				BD07D359ABAAAF8291ED7119 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,10 +192,13 @@
 			isa = PBXGroup;
 			children = (
 				1B6B9E0B1C0FE61B00AAF68A /* redstar@2x.png */,
+				1B0857691C15D6D00084F091 /* tabbar@2x.png */,
 				1B6B9E091C0FE5F700AAF68A /* graystar@2x.png */,
 				1B6B9E0F1C101FD400AAF68A /* star_half@2x.png */,
 				1B6B9E0D1C1019BA00AAF68A /* ratingstar_half@2x.png */,
+				1B08576B1C15D9160084F091 /* back@2x.png */,
 				1BAE43B41C10461A00524A72 /* navbar@2x.png */,
+				1B3384E41C16866C007242A0 /* Default@2x.png */,
 				1B6F45A81C0ED502001FA332 /* poster_default@2x.png */,
 				1B6B9E111C1027E300AAF68A /* upcoming_cn@2x.png */,
 				1B6F45AF1C0F3F4D001FA332 /* 电影详情 */,
@@ -206,6 +239,62 @@
 				1B250D371C0AEF4200B13630 /* Info.plist */,
 			);
 			path = doubanMovieUITests;
+			sourceTree = "<group>";
+		};
+		1B3384DB1C167B40007242A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B3384FA1C182AAE007242A0 /* ZQMovieListInfoController.h */,
+				1B3384FB1C182AAE007242A0 /* ZQMovieListInfoController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B3384DC1C167B40007242A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B3384DD1C167B40007242A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B3384DE1C167B4B007242A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B3384E11C167B76007242A0 /* ZQTheaterController.h */,
+				1B3384E21C167B76007242A0 /* ZQTheaterController.m */,
+				1B3384E61C16AE65007242A0 /* ZQTestController.h */,
+				1B3384E71C16AE65007242A0 /* ZQTestController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B3384DF1C167B4B007242A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B3384EB1C16C13E007242A0 /* ZQNearTheaterModel.h */,
+				1B3384EC1C16C13E007242A0 /* ZQNearTheaterModel.m */,
+				1B3384EE1C16C335007242A0 /* ZQTheaterInfoModel.h */,
+				1B3384EF1C16C335007242A0 /* ZQTheaterInfoModel.m */,
+				1B3384F11C16C3F5007242A0 /* ZQMovieInTheaterModel.h */,
+				1B3384F21C16C3F5007242A0 /* ZQMovieInTheaterModel.m */,
+				1B3384F41C16C4E2007242A0 /* ZQBroadcastModel.h */,
+				1B3384F51C16C4E2007242A0 /* ZQBroadcastModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B3384E01C167B4B007242A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		1B6F45AF1C0F3F4D001FA332 /* 电影详情 */ = {
@@ -249,6 +338,9 @@
 		1B8E24891C0C534800AC5D34 /* 我的电影 */ = {
 			isa = PBXGroup;
 			children = (
+				1B3384DB1C167B40007242A0 /* Controllers */,
+				1B3384DC1C167B40007242A0 /* Model */,
+				1B3384DD1C167B40007242A0 /* View */,
 			);
 			path = "我的电影";
 			sourceTree = "<group>";
@@ -256,6 +348,9 @@
 		1B8E248A1C0C534800AC5D34 /* 影院 */ = {
 			isa = PBXGroup;
 			children = (
+				1B3384DE1C167B4B007242A0 /* Controllers */,
+				1B3384DF1C167B4B007242A0 /* Model */,
+				1B3384E01C167B4B007242A0 /* View */,
 			);
 			path = "影院";
 			sourceTree = "<group>";
@@ -273,8 +368,8 @@
 		1B8E248C1C0C534800AC5D34 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1B8E248D1C0C534800AC5D34 /* ShowInViewController.h */,
-				1B8E248E1C0C534800AC5D34 /* ShowInViewController.m */,
+				1B8E248D1C0C534800AC5D34 /* ZQShowInViewController.h */,
+				1B8E248E1C0C534800AC5D34 /* ZQShowInViewController.m */,
 				1BAE43B11C10410700524A72 /* ZQNaviViewController.h */,
 				1BAE43B21C10410700524A72 /* ZQNaviViewController.m */,
 			);
@@ -332,6 +427,7 @@
 		C5700CA4C39BCF8D619D0472 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B3384E91C16B0C1007242A0 /* CoreLocation.framework */,
 				071C7D26AC9373FC5C6A6C25 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -444,8 +540,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3384E51C16866C007242A0 /* Default@2x.png in Resources */,
 				1B6B9E121C1027E300AAF68A /* upcoming_cn@2x.png in Resources */,
 				1B411F9E1C1196930054164D /* MovieInfoCell.xib in Resources */,
+				1B08576C1C15D9160084F091 /* back@2x.png in Resources */,
 				1B6B9E0C1C0FE61B00AAF68A /* redstar@2x.png in Resources */,
 				1B6B9E0E1C1019BA00AAF68A /* ratingstar_half@2x.png in Resources */,
 				1B250D201C0AEF4200B13630 /* LaunchScreen.storyboard in Resources */,
@@ -456,6 +554,7 @@
 				1BAE43B51C10461A00524A72 /* navbar@2x.png in Resources */,
 				1B6B9E101C101FD400AAF68A /* star_half@2x.png in Resources */,
 				1B250D1B1C0AEF4200B13630 /* Main.storyboard in Resources */,
+				1B08576A1C15D6D00084F091 /* tabbar@2x.png in Resources */,
 				1B6F45AE1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,17 +628,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3384E31C167B76007242A0 /* ZQTheaterController.m in Sources */,
+				1B3384FC1C182AAE007242A0 /* ZQMovieListInfoController.m in Sources */,
+				1B3384F31C16C3F5007242A0 /* ZQMovieInTheaterModel.m in Sources */,
 				1B8E249C1C0C534800AC5D34 /* AppDelegate.m in Sources */,
 				1BAE43B31C10410700524A72 /* ZQNaviViewController.m in Sources */,
-				1B8E24991C0C534800AC5D34 /* ShowInViewController.m in Sources */,
+				1B8E24991C0C534800AC5D34 /* ZQShowInViewController.m in Sources */,
+				1B3384ED1C16C13E007242A0 /* ZQNearTheaterModel.m in Sources */,
 				1B8E24A91C0D4BC300AC5D34 /* CastModel.m in Sources */,
 				1B411F9D1C1196930054164D /* MovieInfoCell.m in Sources */,
 				1B6B9E081C0FDB8D00AAF68A /* ZQRatingModel.m in Sources */,
+				1B3384F01C16C335007242A0 /* ZQTheaterInfoModel.m in Sources */,
 				1B8E249D1C0C534800AC5D34 /* TabController.m in Sources */,
 				1B250D121C0AEF4200B13630 /* main.m in Sources */,
+				1B3384F61C16C4E2007242A0 /* ZQBroadcastModel.m in Sources */,
 				1BAE43B81C1048B000524A72 /* ZQDetailMovieModel.m in Sources */,
 				1B8E24A01C0D422900AC5D34 /* MovieModel.m in Sources */,
 				1B6B9E201C10366A00AAF68A /* ZQMovieDetailInfoController.m in Sources */,
+				1B3384E81C16AE65007242A0 /* ZQTestController.m in Sources */,
 				1B6F45AD1C0F0687001FA332 /* ZQCollectionHeaderCollectionReusableView.m in Sources */,
 				1B8E24A61C0D42DB00AC5D34 /* ImageModel.m in Sources */,
 				1B8E249A1C0C534800AC5D34 /* MovieCell.m in Sources */,
@@ -690,6 +796,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZQ.doubanMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
@@ -705,6 +812,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZQ.doubanMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;

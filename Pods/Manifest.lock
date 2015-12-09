@@ -24,6 +24,7 @@ PODS:
   - HCSStarRatingView (1.4.3)
   - MBProgressHUD (0.9.1)
   - MJExtension (3.0.7)
+  - MJRefresh (3.0.5)
   - SDWebImage (3.7.3):
     - SDWebImage/Core (= 3.7.3)
   - SDWebImage/Core (3.7.3)
@@ -34,6 +35,7 @@ DEPENDENCIES:
   - HCSStarRatingView (~> 1.4.3)
   - MBProgressHUD (~> 0.9.1)
   - MJExtension (~> 3.0.7)
+  - MJRefresh (~> 3.0.5)
   - SDWebImage (~> 3.7)
 
 SPEC CHECKSUMS:
@@ -42,6 +44,7 @@ SPEC CHECKSUMS:
   HCSStarRatingView: bada6ae98258c3019531e0218030e2d5ad10765a
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MJExtension: 290cc966f0f849b12b6391a38e296e0004ae8e5e
+  MJRefresh: 809ed03f2014275056c3d65e2812aef1ba5b0f98
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
 
 COCOAPODS: 0.39.0

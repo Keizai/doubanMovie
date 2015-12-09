@@ -12,4 +12,5 @@
 
 @property (nonatomic, strong) MovieModel *model;
 
+@property (nonatomic, assign) BOOL *ticket;
 @end

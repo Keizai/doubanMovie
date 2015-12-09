@@ -33,9 +33,14 @@
 /**
  *  电影简介
  */
-@property (nonatomic, copy) NSString *summart;
+@property (nonatomic, copy) NSString *summary;
 /**
  *  上映年份
  */
 @property (nonatomic, copy) NSString *year;
+/**
+ *  评分人数
+ */
+@property (nonatomic, copy) NSString *ratings_count;
+
 @end

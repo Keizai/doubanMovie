@@ -6,7 +6,7 @@
 //  Copyright © 2015年 赵琦. All rights reserved.
 //
 
-#import "ShowInViewController.h"
+#import "ZQShowInViewController.h"
 #import "MovieCell.h"
 #import "MJExtension.h"
 #import "AFNetworking.h"
@@ -21,14 +21,14 @@ typedef NS_ENUM(NSInteger, ZQMovieTime) {
    ZQMovieComingSoon,
 };
 
-@interface ShowInViewController ()<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UICollectionViewDelegate,ZQCollectionFooterDelegate>
+@interface ZQShowInViewController ()<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UICollectionViewDelegate,ZQCollectionFooterDelegate>
 @property (nonatomic, weak) UICollectionView *collectionView;
 @property (nonatomic, strong) NSMutableArray *moviesInTheater;
 @property (nonatomic, strong) NSMutableArray *moviesComingSoon;
 
 @end
 
-@implementation ShowInViewController
+@implementation ZQShowInViewController
 static NSString *const cellID = @"moviecell";
 static NSString *const footerID = @"footer";
 - (NSMutableArray *)moviesInTheater{
@@ -64,12 +64,9 @@ static NSString *const footerID = @"footer";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 20)];
-    [view setBackgroundColor:[UIColor blackColor]];
-    [self.view addSubview:view];
-    //获取正在上映的电影信息
+       //获取正在上映的电影信息
     [self setUpMoviesInTheater];
-    [self.navigationController setNavigationBarHidden:YES];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -138,6 +135,7 @@ static NSString *const footerID = @"footer";
     NSLog(@"click");
     ZQMovieDetailInfoController *vc = [[ZQMovieDetailInfoController alloc]init];
     
+    vc.ticket = YES;
     if (indexPath.section == ZQMovieInTheater) {
         vc.title = [self.moviesInTheater[indexPath.row] title];
         vc.idstr = [self.moviesInTheater[indexPath.row] idstr];

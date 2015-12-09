@@ -23,14 +23,20 @@
                             forState:UIControlStateNormal];
         
     }
-   
+    self.tabBar.translucent = NO;
+    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 20)];
+    [view setBackgroundColor:[UIColor blackColor]];
+    [self.view addSubview:view];
+
     // Do any additional setup after loading the view.
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
+}
 /*
 #pragma mark - Navigation
 

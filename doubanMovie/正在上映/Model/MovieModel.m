@@ -11,6 +11,7 @@
 #import "ZQRatingModel.h"
 #import "MJExtension.h"
 #import "CastModel.h"
+
 @implementation MovieModel
 + (NSDictionary *)mj_objectClassInArray{
     return @{@"casts":[CastModel class]};
