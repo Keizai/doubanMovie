@@ -10,4 +10,4 @@
 
 @interface ZQMovieListInfoController : UITableViewController
 
-;@end
+@end

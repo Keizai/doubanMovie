@@ -30,7 +30,6 @@ static NSString *const theaterCellID = @"theatercell";
     [self.manager startUpdatingLocation];
     [self.manager requestWhenInUseAuthorization];
     self.tableView.sectionHeaderHeight = 14.0;
-    NSLog(@"asdf");
 }
 
 
@@ -86,9 +85,11 @@ static NSString *const theaterCellID = @"theatercell";
     }];
 
 }
+
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status{
     
 }
+
 #pragma mark - tableView datasource and delegate methods
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.theaters.count;
@@ -103,9 +104,11 @@ static NSString *const theaterCellID = @"theatercell";
     cell.detailTextLabel.text = [self.theaters[indexPath.row] distance];
     return cell;
 }
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
 }
+
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(10, 0, self.view.frame.size.width, 25)];
     label.text = @"附近的影院";

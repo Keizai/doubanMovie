@@ -24,9 +24,6 @@
 @implementation MovieInfoCell
 
 - (void)setModel:(MovieModel *)model{
-//    self.imageView sd_setImageWithURL:[NSURL URLWithString:model.images.small] placeholderImage:[UIImage imageNamed:@"poster_default"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-//        
-//    }
     _model = model;
     self.imageView.contentMode = UIViewContentModeCenter;
     [self.imageView sd_setImageWithURL:[NSURL URLWithString:model.images.medium] placeholderImage:[UIImage imageNamed:@"poster_default"]];
